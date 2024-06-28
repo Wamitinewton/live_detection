@@ -9,7 +9,18 @@ Future<image_lib.Image?> convertCameraImageToImage(
     CameraImage cameraImage) async {
   image_lib.Image image;
 
-  if (cameraImage.format.group == ImageFormatGroup.yuv420) {}
+  if (cameraImage.format.group == ImageFormatGroup.yuv420) {
+    image = convertYUV420ToImage(cameraImage);
+  } else if (cameraImage.format.group == ImageFormatGroup.bgra8888) {
+    image = convertBGRA8888ToImage(cameraImage);
+  } else if (cameraImage.format.group == ImageFormatGroup.jpeg) {
+    image = convertJPEGToImage(cameraImage);
+  } else if (cameraImage.format.group == ImageFormatGroup.nv21) {
+    image = convertN21ToImage(cameraImage);
+  } else {
+    return null;
+  }
+
   return image;
 }
 
@@ -125,3 +136,34 @@ void convertNV21ToRGB(Uint8List yuvBytes, Uint8List vuBytes, int width, int heig
   }
 }
 
+Future<int> getExifRotation(CameraImage cameraImage) async {
+  final exifData = await readExifFromBytes(cameraImage.planes[0].bytes);
+  final ifd = exifData['Image Orientation'];
+  if (ifd != null) {
+    return ifd.values.toList()[0];
+  }
+  return 1;
+}
+
+image_lib.Image applyExifRotation(image_lib.Image image, int exifRotation) {
+  if (exifRotation == 1) {
+    return image_lib.copyRotate(image, angle: 0);
+  } else if (exifRotation == 3) {
+    return image_lib.copyRotate(image, angle: 180);
+  } else if (exifRotation == 6) {
+    return image_lib.copyRotate(image, angle: 90);
+  } else if (exifRotation == 8) {
+    return image_lib.copyRotate(image, angle: 270);
+  }
+
+  return image;
+}
+Future<void> saveImage(
+    image_lib.Image image,
+    String path,
+    String name,
+    ) async {
+  Uint8List bytes = image_lib.encodeJpg(image);
+  final fileOnDevice = File('$path/$name.jpg');
+  await fileOnDevice.writeAsBytes(bytes, flush: true);
+}
