@@ -12,7 +12,6 @@ stop sign
 parking meter
 bench
 bird
-cat
 dog
 horse
 sheep
