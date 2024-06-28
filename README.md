@@ -1,16 +1,22 @@
-# live_detector
+# Object Detection
 
-A new Flutter project.
+|      | Android | iOS | Linux | Mac | Windows | Web |
+|------|---------|-----|-------|-----|---------|-----|
+| live | ✅       | ✅   |   [🚧](https://github.com/flutter/flutter/issues/41710)   |  [🚧](https://github.com/flutter/flutter/issues/41708)  |         |     |
 
-## Getting Started
+Live object detection example following [this](https://www.tensorflow.org/lite/examples/object_detection/overview) example.
 
-This project is a starting point for a Flutter application.
+## Overview
 
-A few resources to get you started if this is your first Flutter project:
+This application is a simple demonstration of the [tflite_flutter](https://pub.dev/packages/tflite_flutter) package.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Object detection applies on an image stream from camera (portrait mode only for the showcase purpose).
+All expensive and heavy operations are performed in a separate background isolate.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to start
+
+Run 'sh ./scripts/download_model.sh' from your repo core folder to download tf models.
+
+## Sample output
+
+
