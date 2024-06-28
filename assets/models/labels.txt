@@ -1,0 +1,512 @@
+bicycle
+car
+motorcycle
+airplane
+bus
+train
+truck
+boat
+traffic light
+fire hydrant
+stop sign
+parking meter
+bench
+bird
+cat
+dog
+horse
+sheep
+cow
+elephant
+bear
+zebra
+giraffe
+lion
+tiger
+backpack
+umbrella
+hat
+sunglasses
+handbag
+tie
+suitcase
+frisbee
+skis
+snowboard
+sports ball
+kite
+baseball bat
+baseball glove
+skateboard
+surfboard
+tennis racket
+bottle
+wine glass
+cup
+fork
+knife
+spoon
+bowl
+banana
+apple
+sandwich
+orange
+broccoli
+carrot
+hot dog
+pizza
+donut
+cake
+chair
+couch
+potted plant
+bed
+wardrobe
+dining table
+stool
+lamp
+toilet
+shower
+tv
+laptop
+mouse
+remote
+keyboard
+cell phone
+microwave
+oven
+toaster
+sink
+refrigerator
+dishwasher
+book
+clock
+vase
+scissors
+teddy bear
+hair drier
+toothbrush
+soap
+towel
+mirror
+fan
+picture frame
+painting
+radio
+speaker
+pencil
+pen
+notebook
+eraser
+ruler
+glue
+stapler
+paperclip
+binder
+folder
+envelope
+calculator
+map
+globe
+telescope
+binoculars
+suit
+coat
+jacket
+sweater
+shirt
+t-shirt
+jeans
+pants
+shorts
+skirt
+dress
+shoes
+boots
+sneakers
+sandals
+socks
+hat
+scarf
+gloves
+belt
+watch
+bracelet
+necklace
+ring
+earrings
+umbrella
+helmet
+goggles
+mask
+flashlight
+compass
+tent
+sleeping bag
+backpack
+binoculars
+camera
+tripod
+stroller
+walker
+wheelchair
+crutches
+hearing aid
+prosthetic leg
+cast
+bandage
+thermometer
+stethoscope
+blood pressure monitor
+syringe
+pills
+tablet
+capsule
+ointment
+band-aid
+cotton swabs
+tissue
+napkin
+paper towel
+sponge
+broom
+dustpan
+mop
+bucket
+vacuum cleaner
+washing machine
+dryer
+iron
+ironing board
+clothes hanger
+laundry basket
+trash can
+recycling bin
+soap dispenser
+hand sanitizer
+toilet paper
+towel rack
+bath mat
+shower curtain
+bathrobe
+slippers
+razor
+shaving cream
+toothpaste
+mouthwash
+dental floss
+eye drops
+contact lens case
+sunglasses
+eyeglasses
+magnifying glass
+hearing aid
+cane
+walking stick
+wheelchair
+ramp
+elevator
+escalator
+staircase
+handrail
+fire extinguisher
+first aid kit
+flashlight
+batteries
+generator
+toolbox
+hammer
+screwdriver
+wrench
+pliers
+drill
+saw
+tape measure
+level
+screw
+nail
+bolt
+nut
+washer
+paintbrush
+paint roller
+paint can
+ladder
+workbench
+safety glasses
+ear protection
+gloves
+apron
+helmet
+goggles
+mask
+earplugs
+first aid kit
+fire extinguisher
+smoke detector
+carbon monoxide detector
+security camera
+alarm system
+lock
+key
+padlock
+safe
+vault
+fence
+gate
+doorbell
+intercom
+mailbox
+package
+delivery truck
+bicycle
+scooter
+motorcycle
+car
+truck
+van
+bus
+train
+tram
+subway
+airplane
+helicopter
+boat
+ship
+submarine
+spaceship
+rocket
+satellite
+drone
+hot air balloon
+parachute
+glider
+kite
+blimp
+tank
+jeep
+motorboat
+yacht
+canoe
+kayak
+rowboat
+paddleboat
+sailboat
+ferry
+cruise ship
+container ship
+cargo ship
+battleship
+submarine
+lifeboat
+dinghy
+inflatable boat
+raft
+jetski
+hovercraft
+amphibious vehicle
+snowmobile
+tractor
+combine harvester
+plow
+seeder
+sprayer
+bulldozer
+excavator
+crane
+forklift
+backhoe
+dump truck
+cement mixer
+road roller
+paver
+grader
+scraper
+loader
+skid steer loader
+telehandler
+scissor lift
+cherry picker
+boom lift
+aerial work platform
+track loader
+wheel loader
+mini excavator
+dragline excavator
+long reach excavator
+hydraulic hammer
+pile driver
+trencher
+pipe layer
+rock breaker
+feller buncher
+log loader
+skidder
+forwarder
+harvester
+processor
+grapple
+wood chipper
+stump grinder
+mulcher
+fire truck
+ambulance
+police car
+taxi
+limousine
+tow truck
+garbage truck
+recycling truck
+street sweeper
+snow plow
+salt truck
+ice cream truck
+food truck
+delivery van
+postal truck
+hearse
+car carrier
+motorhome
+camper
+caravan
+trailer
+RV
+ATV
+dirt bike
+go-kart
+golf cart
+lawn mower
+snow blower
+leaf blower
+pressure washer
+generator
+air compressor
+water pump
+welder
+jackhammer
+chainsaw
+lawn tractor
+snowmobile
+dune buggy
+sand rail
+rock crawler
+monster truck
+race car
+dragster
+stock car
+formula one car
+rally car
+sports car
+convertible
+coupe
+sedan
+station wagon
+hatchback
+minivan
+SUV
+pickup truck
+van
+microcar
+compact car
+subcompact car
+mid-size car
+full-size car
+luxury car
+exotic car
+muscle car
+off-road vehicle
+utility vehicle
+armored vehicle
+military vehicle
+police vehicle
+fire engine
+ambulance
+rescue vehicle
+command vehicle
+hazmat vehicle
+incident response vehicle
+search and rescue vehicle
+wildland fire engine
+tactical vehicle
+command post vehicle
+bomb disposal vehicle
+swat vehicle
+riot control vehicle
+k-9 unit
+patrol car
+undercover car
+prisoner transport vehicle
+detention van
+mobile command center
+surveillance van
+armored personnel carrier
+armored rescue vehicle
+police motorcycle
+police bicycle
+mounted patrol
+segway
+electric scooter
+electric bicycle
+electric skateboard
+hoverboard
+personal transporter
+segway
+unicycle
+penny-farthing
+tricycle
+quad bike
+go-kart
+soapbox car
+pedal car
+roller skates
+inline skates
+skateboard
+longboard
+penny board
+balance board
+kick scooter
+stunt scooter
+freestyle scooter
+electric unicycle
+electric skateboard
+electric longboard
+onewheel
+hoverboard
+segway
+hoverkart
+electric trike
+electric quad
+electric ATV
+electric go-kart
+electric motorcycle
+electric moped
+electric scooter
+electric bike
+electric tricycle
+electric unicycle
+electric skateboard
+electric hoverboard
+electric segway
+electric personal transporter
+e-scooter
+e-bike
+e-skateboard
+e-hoverboard
+e-segway
+e-unicycle
+personal mobility device
+micro mobility device
+urban mobility device
+last mile device
+last mile transport
+last mile solution
+last mile vehicle
+personal transport vehicle
+alternative transport vehicle
+alternative mobility device
+shared mobility device
+shared transport device
+shared vehicle
+ride share vehicle
+car share vehicle
+bike
